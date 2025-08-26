@@ -1,6 +1,6 @@
 const images = document.querySelectorAll("[data-src]");
 const options = {
-  threshold: 0.1,
+  threshold: 0.5,
 };
 const onEntry = (entries, observer) => {
   entries.forEach((entry) => {
